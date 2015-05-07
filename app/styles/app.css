@@ -1,0 +1,42 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+}
+
+.calculation-input, .pizza-calculation {
+  clear: both;
+  margin: 2em 0;
+}
+
+.calculation-image {
+  float: left;
+  margin-right: 1em;
+}
+
+label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 0.2em;
+}
+
+input {
+  display: block;
+  padding: 8px;
+  font-size: 1.5em;
+}
+
+.calculation-image, .pizza {
+  max-width: 50pt;
+}
+
+
+

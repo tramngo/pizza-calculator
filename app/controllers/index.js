@@ -6,7 +6,7 @@ export default Ember.Controller.extend({
   slicesPerPerson: 1,
 
   pizzasNeeded: function () {
-    return Math.ceil(this.get('numberOfPeople') * this.get('slicesPerPerson'));
+    return Math.ceil(this.get('numberOfPeople') * this.get('slicesPerPerson') / 8);
   }.property('numberOfPeople', 'slicesPerPerson')
 
 });
